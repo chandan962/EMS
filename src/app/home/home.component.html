@@ -1,0 +1,68 @@
+
+<div class="container topHeaderLeft">
+  <ul id="gn-menu" class="gn-menu-main">
+    <li class="gn-trigger">
+      <a class="gn-icon gn-icon-menu" [ngClass]="{'gn-selected' : redClassBool}" (click)="redClassBool = !redClassBool"><span>Menu</span></a>
+      <nav class="gn-menu-wrapper" [class.gn-open-all]="redClassBool">
+        <div class="gn-scroller">
+          <ul class="gn-menu">
+            <li><a class="gn-icon gn-icon-cog fa-user-o" [routerLink]="['/member']">Member</a></li>
+            <li><a class="gn-icon gn-icon-help fa-calendar-check-o" [routerLink]="['/attendance']">Attendance</a></li>
+            <li><a class="gn-icon gn-icon-cog fa-cog" [routerLink]="['/project']">project</a></li>
+            <li><a class="gn-icon gn-icon-help fa-tasks" [routerLink]="['/task']">Task</a></li>
+            <li><a class="gn-icon gn-icon-help fa-sticky-note-o" [routerLink]="['/note']">Note</a></li>
+          </ul>
+        </div><!-- /gn-scroller -->
+      </nav>
+    </li>
+    <li><a [routerLink]="['/member']">Member</a></li>
+    <li><a class="codrops-icon" [routerLink]="['/attendance']"><span>Attendance</span></a></li>
+    <li><a class="codrops-icon" [routerLink]="['/project']"><span>project</span></a></li>
+    <li><a class="codrops-icon" [routerLink]="['/task']"><span>Task</span></a></li>
+    <li><a class="codrops-icon" [routerLink]="['/note']"><span>Note</span></a></li>
+    <li><a class="codrops-icon codrops-icon-drop" href="#" [routerLink]="['/login']"><span>Login</span></a></li>
+  </ul> 
+</div>
+<div class="topserchBox">
+  <div class="container">
+    <form>
+      <div class="col-sm-2">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+      </div>
+    </form>
+  </div>
+</div>
+<div class='inner-outlet'>
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,58 @@
+//$fa-font-path : 'font-awesome/fonts';
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1560px !important;
+    width: inherit !important;
+  }
+}
+.tableBox {
+  background: $white;
+  table {
+    thead {
+      tr {
+        background: #434343;
+        th { color: $white;}
+      }
+    }
+    tbody {
+      tr {
+        td {
+
+        }
+      }
+    }
+  }
+}
+.checkBoxSection {
+  .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #2e6da4;
+    margin: 0 4px;
+    border-radius: 6px !important;
+    border: solid 2px #2e6da4;
+    width: 30px;
+    height: 30px;
+    &.active {
+      color: #fff;
+      background-color: transparent;
+      border-color: #2e6da4;
+      margin: 0 4px;
+      border-radius: 6px !important;
+      border: solid 2px #2e6da4;
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      &:before {
+          content: "\f00c";
+          color: #2e6da4;
+          margin-left: -5px;
+      }
+      &:hover { background: transparent;}
+    }
+    &:hover { background: transparent;}
+  }
+}
+

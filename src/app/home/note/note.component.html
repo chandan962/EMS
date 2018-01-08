@@ -1,0 +1,200 @@
+<div class="container">
+  <div class="tableBox">
+    <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Number</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>
+              <!--<pre class="card card-block card-header">{{checkModel | json}}</pre>-->
+              <div class="btn-group checkBoxSection">
+                <label class="btn btn-primary" [(ngModel)]="checkModel.select1"btnCheckbox></label>
+              </div>
+            </td>
+            <td>
+              asd
+            </td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>
+              <div class="btn-group checkBoxSection">
+                <label class="btn btn-primary" [(ngModel)]="checkModel.select2"btnCheckbox></label>
+              </div>
+            </td>
+            <td>
+                <div class="btn-group" dropdown>
+                    <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
+                      Button dropdown {{userLasttttname}} <span class="caret"></span>
+                    </button>
+                    <ul *dropdownMenu class="dropdown-menu" role="menu">
+                      <li role="menuitem"><a class="dropdown-item" [(ngModel)]="myModelttt" (click)="value1">Action</a></li>
+                      <li role="menuitem"><a class="dropdown-item" (click)="value2">Another action</a></li>
+                      <li role="menuitem"><a class="dropdown-item" (click)="value3">Something else here</a></li>
+                      <li role="menuitem"><a class="dropdown-item" (click)="value4">Separated link</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                  {{name}}
+            </td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>
+              <div class="btn-group checkBoxSection">
+                <label class="btn btn-primary" [(ngModel)]="checkModel.select3"btnCheckbox></label>
+              </div>
+            </td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+          <tr>
+              <th scope="row">4</th>
+              <td>
+                  <div class="btn-group checkBoxSection">
+                    <label class="btn btn-primary" [(ngModel)]="checkModel.select4"btnCheckbox></label>
+                  </div>
+                </td>
+              <td>
+                  <div class="btn-group" dropdown>
+                      <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
+                        Button dropdown <span class="caret"></span>
+                      </button>
+                      <ul *dropdownMenu class="dropdown-menu" role="menu">
+                        <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li class="divider dropdown-divider"></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+                        </li>
+                      </ul>
+                    </div>
+              </td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>
+                  <div class="btn-group checkBoxSection">
+                    <label class="btn btn-primary" [(ngModel)]="checkModel.select5"btnCheckbox></label>
+                  </div>
+                </td>
+              <td>
+                  <div class="btn-group" dropdown>
+                      <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
+                        Button dropdown <span class="caret"></span>
+                      </button>
+                      <ul *dropdownMenu class="dropdown-menu" role="menu">
+                        <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li class="divider dropdown-divider"></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+                        </li>
+                      </ul>
+                    </div>
+              </td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>
+                  <div class="btn-group checkBoxSection">
+                    <label class="btn btn-primary" [(ngModel)]="checkModel.select6"btnCheckbox></label>
+                  </div>
+                </td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>
+                    <div class="btn-group checkBoxSection">
+                      <label class="btn btn-primary" [(ngModel)]="checkModel.select7"btnCheckbox></label>
+                    </div>
+                  </td>
+                <td>
+                    <div class="btn-group" dropdown>
+                        <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
+                          Button dropdown <span class="caret"></span>
+                        </button>
+                        <ul *dropdownMenu class="dropdown-menu" role="menu">
+                          <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                          <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+                          <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li class="divider dropdown-divider"></li>
+                          <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+                          </li>
+                        </ul>
+                      </div>
+                </td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>
+                    <div class="btn-group checkBoxSection">
+                      <label class="btn btn-primary" [(ngModel)]="checkModel.select8"btnCheckbox></label>
+                    </div>
+                  </td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>
+                    <div class="btn-group checkBoxSection">
+                      <label class="btn btn-primary" [(ngModel)]="checkModel.select9"btnCheckbox></label>
+                    </div>
+                  </td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+              <tr>
+                  <th scope="row">10</th>
+                  <td>
+                      <div class="btn-group checkBoxSection">
+                        <label class="btn btn-primary" [(ngModel)]="checkModel.select10"btnCheckbox></label>
+                      </div>
+                    </td>
+                  <td>
+                      <div class="btn-group" dropdown>
+                          <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
+                            Button dropdown <span class="caret"></span>
+                          </button>
+                          <ul *dropdownMenu class="dropdown-menu" role="menu">
+                            <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                            <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+                            <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li class="divider dropdown-divider"></li>
+                            <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+                            </li>
+                          </ul>
+                        </div>
+                  </td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">11</th>
+                  <td>
+                      <div class="btn-group checkBoxSection">
+                        <label class="btn btn-primary" [(ngModel)]="checkModel.select11"btnCheckbox></label>
+                      </div>
+                    </td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+        </tbody>
+      </table>
+    </div>
+</div>

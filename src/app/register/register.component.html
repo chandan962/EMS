@@ -1,0 +1,42 @@
+<!--<a [routerLink]="['./home/home.component']>link</a>-->
+<div class="form">
+  <div class="logoBox"><img class="ckLogoBig" src="assets/resources/logo.png"></div>
+  
+  <div class="tab-content">
+    <div id="signup">
+      <h1>Sign Up for Free</h1>
+
+      <form>
+
+      <div class="top-row">
+        <div class="field-wrap">
+          <label>First Name<span class="req">*</span></label>
+          <input type="text" name="userFirstname" required [(ngModel)]="userFirstname" />
+        </div>
+
+        <div class="field-wrap">
+          <label> Last Name<span class="req">*</span> </label>
+          <input type="text"required name="userLasttname" [(ngModel)]="userLasttname"/>
+        </div>
+      </div>
+
+      <div class="field-wrap">
+        <label>Email Address<span class="req">*</span></label>
+        <input type="email"required name="userEmail" [(ngModel)]="userEmail"/>
+      </div>
+
+      <div class="field-wrap">
+        <label> Set A Password<span class="req">*</span></label>
+        <input type="password"required name="userPassword" [(ngModel)]="userPassword"/>
+      </div>
+      <p class="forgot"><a [routerLink]="['/login']">Login</a></p>
+      <a href="#" class="loginBtn" (click)="onButtonClick()">Submit</a>
+
+      </form>
+
+    </div>
+
+  </div><!-- tab-content -->
+
+</div> <!-- /form -->
+{{registerform}}
